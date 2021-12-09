@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RTMP Stream</string>
+    <string name="no_device">No USB Camera found</string>
+
+</resources>

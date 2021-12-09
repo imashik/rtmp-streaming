@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_example_rtmp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.pedro.rtplibrary.view.OpenGlView
+        android:id="@+id/surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:AAEnabled="false"
+        app:isFlipHorizontal="false"
+        app:isFlipVertical="false"
+        app:keepAspectRatio="false"
+        app:numFilters="1" />
+
+    <ImageView
+        android:id="@+id/img_start_stop"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_gravity="end|center"
+        android:layout_margin="12dp"
+        android:background="#9C1A1A"
+        android:padding="2dp"
+        android:src="@android:drawable/ic_media_play" />
+
+    <TextView
+        android:id="@+id/txt_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="24dp"
+        android:text="00:00"
+        android:textColor="@color/WHITE"
+        android:textSize="24sp" />
+</FrameLayout>

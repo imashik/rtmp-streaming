@@ -1,0 +1,13 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+
+        maven { url 'https://raw.github.com/saki4510t/libcommon/master/repository/' }
+        maven { url "https://jitpack.io" }
+    }
+}
+rootProject.name = "RtmpStream"
+include ':app'

@@ -34,7 +34,7 @@
         android:largeHeap="true"
         android:requestLegacyExternalStorage="true"
         android:supportsRtl="true"
-        android:theme="@style/Theme.UsbCamTest">
+        android:theme="@style/Theme.RtmpStream">
         <activity
             android:name="com.imashik.rtmpstream.HomeActivity"
             android:exported="true">

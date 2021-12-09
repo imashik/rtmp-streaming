@@ -6,7 +6,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.imashik.usbcamtest"
+        applicationId "com.imashik.rtmpstream"
         minSdk 21
         targetSdk 31
         versionCode 1
